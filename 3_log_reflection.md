@@ -1,0 +1,5 @@
+# 3. Reflection (Step 5)
+
+In my initial draft (`1_attempt.md`), my primary error was confusing statistical observations with external causal explanations. Specifically, I initially assumed that price spikes and discrepancies were driven by real-world supply chain disruptions or shopkeeper pricing strategies without having any evidence in the dataset to support those claims. 
+
+Because `teaching_prices_messy.csv` only contains dates, cities, item names, and numeric price entries, it provides zero information about human motives, government policies, or market conditions. Auditing my work against the AI's output reinforced how easily an analyst—or an AI—can fabricate plausible-sounding narratives around raw numbers. Moving forward, I will strictly separate verifiable data outputs (`[O]`) from speculative explanations (`[E]`) and ensure I never report a mean without checking whether extreme outliers (`1,250` and `9,999`) are distorting the typical consumer experience.
